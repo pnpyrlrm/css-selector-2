@@ -1,11 +1,11 @@
 /* 4.1 */
-.lesson-four-task-one:hover {
+.lesson-four-task-one .btn:hover {
   background: yellow;
   color: red;
 }
 
 /* 4.2 */
-.lesson-four-task-two .title:hover {
+.lesson-four-task-two .link:hover + .title {
   background: green;
 }
 
@@ -21,7 +21,7 @@
 }
 
 /* 4.5 */
-.lesson-four-task-five:active {
+.lesson-four-task-five .btn:active {
   background: blue;
 }
 
@@ -101,7 +101,7 @@
 }
 
 /* 4.19 */
-.lesson-four-task-nineteen .btn-group:focus-within {
+.lesson-four-task-nineteen .btn-group button:focus-within {
   color: #fff;
   background: yellow;
 }
